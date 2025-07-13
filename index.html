@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Pappa Ji!!</title>
+    <style>
+        .main {
+            margin: 140px;
+            padding: 34px;
+            width: 78vw;
+            border: 2px solid black;
+            border-radius: 5%;
+            background-color: rgb(255 195 127);
+            display: grid;
+            grid-template-areas: "heading1 heading1 heading1"
+                                 "image1 image image2"
+                                  "wish1 image wish2"
+                                  "image3 letter image4 ";
+
+        }
+
+        .img1 {
+            align-self: center;
+            grid-area: image1;
+            width: 223px;
+            border-radius: 123px;
+
+        }
+
+        .image {
+            border: 2px solid rgb(120, 57, 6);
+            margin: 95px;
+            margin-left: 125px;
+            grid-area: image;
+            width: 345px;
+            transform: rotateY(1turn);
+            border-radius: 20px;
+        }
+
+        .image:hover {
+            transition-property: transform;
+            transition-duration: 5s;
+            transition-timing-function: cubic-bezier(1, 0.14, 0.35, 1.15);
+        }
+
+        .img2 {
+            border-radius: 123px;
+            align-self: center;
+            width: 223px;
+            transform: scaleX(-1);
+        }
+
+        h1 {
+            margin-right: 34px;
+            display: flex;
+            grid-area: heading1;
+            justify-content: center;
+            align-items: center;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        .wish{
+            font-family: cursive;
+            grid-area: wish1;
+            margin-left: 63px;
+        }
+        .hbd{
+            font-family: cursive;
+            margin-right: 53px;
+            grid-area: wish2;
+        }
+        .letter{
+            border: 3px solid orange;
+            grid-area: letter;
+            font-size: large;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-shadow: 1px 5px 5px rgb(108, 7, 7);
+            
+        }
+        .image3{
+            margin-right: 23px;
+            width: 233px;
+            grid-area: image3;
+            border: 2px solid steelblue;
+            border-radius: 20px;
+        }
+        .image4{
+            margin-left: 45px;
+            width: 233px;
+            grid-area: image4;
+            border: 2px solid black;
+            border-radius: 20px;
+        }
+        audio{
+            grid-area: letter;
+            align-self:flex-end;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <img src="3d-party-popper-with-confetti-in-hand-vector-47887003.webp" alt="" class="img1">
+        <img src="WhatsApp Image 2025-07-10 at 10.03.55_6527cfaa.jpg" alt="" class="image">
+        <img src="3d-party-popper-with-confetti-in-hand-vector-47887003.webp" alt="" class="img2">
+        <img src="WhatsApp Image 2025-07-10 at 10.12.39_d981560d.jpg" alt="" class="image3">
+        <img src="WhatsApp Image 2025-07-10 at 10.12.43_2d8bb4cb.jpg" alt="" class="image4">
+        <h1>Happy Birthday Papa!!</h1>
+        <h2 class="wish">Wishing</h2>
+        <h2 class ="hbd"> Happy Birthday</h2>
+        <p class="letter">Ram Ram Bhaisaab!! 🫡<br>
+        I hope aap theek ho . Happy birthday bohot bada waala 🎉🎆. aap hamesha khush rho . Healthy rho . Kaam acche se chalta rhe aur aapka aashirwaad hamesha mere saath rhe.Thank you mera hamesha dhyaan rkhne ke liye aur hamesha support karne ke liye. Thank you and Happy birthday again!! <br>Sanchit😁</p>
+        <audio src="WhatsApp Audio 2025-07-12 at 15.35.08_e7909084.mp3" controls autoplay muted></audio>
+    </div>
+</body>
+
+</html>
